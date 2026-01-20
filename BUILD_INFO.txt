@@ -1,0 +1,4 @@
+Build ID: 2689b146-7e25-40d8-89be-30bec58fbdc3
+Username: admin
+Server URL: https://shop.apiy.me
+Build Time: 2026-01-20 11:10:22

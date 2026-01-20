@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Filter</key>
+    <dict>
+        <!-- 如果你想限制只在特定应用中加载这个 tweak，在这里添加 Bundle ID -->
+        <!-- 例如：只在 Safari 中加载 -->
+        <!--
+        <key>Bundles</key>
+        <array>
+            <string>com.apple.mobilesafari</string>
+        </array>
+        -->
+        
+        <!-- 默认配置：在所有应用中加载 -->
+        <key>Bundles</key>
+        <array>
+            <string>com.apple.UIKit</string>
+        </array>
+    </dict>
+</dict>
+</plist>
