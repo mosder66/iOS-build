@@ -1,0 +1,26 @@
+name: Build iOS dylib
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  build:
+    runs-on: macos-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Build dylib
+      run: |
+        cd src
+        make
+        
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: ios-dylib
+        path: src/libinject.dylib
+        retention-days: 90

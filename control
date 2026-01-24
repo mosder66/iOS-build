@@ -1,0 +1,9 @@
+Package: com.example.alerttweak
+Name: AlertTweak
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: 在应用启动时显示欢迎弹窗的 iOS dylib
+Maintainer: Your Name <your.email@example.com>
+Author: Your Name <your.email@example.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
